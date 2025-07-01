@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Charger EmailJS depuis CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+</head>
+<body>
+<section class="cta">
+  <h2>💡 Inscris-toi pour tester RAPHA en avant-première</h2>
+  <p>Nous te préviendrons dès que l’app est prête !</p>
+  <br>
+
+  <form id="contact-form" class="form-box">
+    <input type="text" name="name" id="name" placeholder="Nom complet" required>
+    <input type="email" name="email" id="email" placeholder="Adresse e-mail" required>
+    <input type="tel" name="telephone" id="telephone" placeholder="Numéro WhatsApp" required>
+    <button type="submit">Je m’inscris</button>
+  </form>
+
+  <p id="confirmation-message" style="color: green; margin-top: 1rem;"></p>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
